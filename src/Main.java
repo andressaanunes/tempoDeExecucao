@@ -4,7 +4,7 @@ import java.util.stream.IntStream;
 public class Main {
     public static void main(String[] args) {
         // Tamanhos dos vetores de teste
-        int[] tamanhos = {250000};
+        int[] tamanhos = {62500, 125000, 250000, 375000};
 
         // Para cada tamanho de vetor
         for (int tamanho : tamanhos) {
